@@ -1,12 +1,9 @@
 /// @description Insert description here
-// You can write your code in this editor
-direita = keyboard_check(ord("D"));
-esquerda = keyboard_check(ord("A"));
-cima = keyboard_check(ord("W"));
-baixo = keyboard_check(ord("S"));
+script_execute(estado);
+depth = -y;
 
-hvel = (direita - esquerda) * vel;
-vvel = (baixo - cima) * vel;
+if alarm[1] <= 0{
+	estamina += 1;
+}
 
-x += hvel;
-y += vvel;
+estamina = clamp(estamina, 0, max_estamina);
