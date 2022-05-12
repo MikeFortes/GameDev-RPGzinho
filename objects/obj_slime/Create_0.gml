@@ -1,7 +1,7 @@
 /// @description Insert description here
 randomize();
 
-estado = -1;
+estado = scr_slime_escolher_estado;
 prox_estado = 0;
 
 hveloc = 0;
